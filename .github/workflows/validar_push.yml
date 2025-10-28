@@ -21,4 +21,4 @@ jobs:
             echo "::error::ERROR: El nombre de rama '$BRANCH_NAME' NO CUMPLE con la convención."
             echo "Debe comenzar con uno de estos prefijos: feature/, bugfix/, o hotfix/."
             exit 1
-          fi 
+          fi  

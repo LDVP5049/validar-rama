@@ -3,8 +3,8 @@ name: Push Branch Validator
 on:
   push:
     branches:
-      - 'main'
-      - 'master'
+      - '!main'
+      - '!master'
 
 jobs:
   validate_branch_name:
